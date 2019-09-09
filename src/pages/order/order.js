@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
+import Footer from '@/components/footer/footer'
 
 class Order extends Component {
     render() {
         return (
-            <div>Order</div>
+            <div>
+                <div>
+                    order
+                </div>
+                <Footer />
+            </div>
         )
     }
 }

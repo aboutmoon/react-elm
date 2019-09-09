@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
+import Footer from '@/components/footer/footer'
 
 class Search extends Component {
     render() {
         return (
-            <div>Search</div>
+            <div>
+                <div>
+                    search
+                </div>
+                <Footer/>
+            </div>
         )
     }
 }

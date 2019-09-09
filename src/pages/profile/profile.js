@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Footer from '@/components/footer/footer'
-import SvgIcon from '@/components/svg/svg'
 
 class Profile extends Component {
     render() {
@@ -10,7 +9,6 @@ class Profile extends Component {
                     Profile
                 </div>
                 <Footer />
-                <SvgIcon />
             </div>
 
         )
