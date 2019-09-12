@@ -32,7 +32,7 @@ class Footer extends Component {
                     </defs>
                 </svg>
 
-                <NavLink className="guide-item" activeClassName="guide-item-active" to="/takeout">
+                <NavLink className="guide-item" activeClassName="guide-item-active" to="/msite">
                     <svg className="icon_style">
                         <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#icon-elm"></use>
                     </svg>

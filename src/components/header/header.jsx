@@ -5,7 +5,10 @@ import './header.scss'
 class Header extends Component {
     static propTypes = {
         title: PropTypes.string.isRequired,
-        userInfo: PropTypes.object.isRequired
+        userInfo: PropTypes.object.isRequired,
+        goBack: PropTypes.func,
+        goHome: PropTypes.func,
+        edit: PropTypes.func,
     }
 
     handleBack = () => {
@@ -18,9 +21,11 @@ class Header extends Component {
 
     render() {
         return (
-            <header className="header-container">
-                {this.props.title&& <h1>{this.props.title}</h1>}
-                {this.props.userInfo&& <h1>{this.props.userInfo}</h1>}
+            <header id="head-top">
+                {/* head left */}
+
+                {/* head middle */}
+                {/* head right */}
             </header>
         )
     }
