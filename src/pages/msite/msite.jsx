@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Footer from "@/components/footer/footer"
 import Header from "@/components/header/header"
+import RatingStar from '@/components/common/ratingStar/ratingStar'
 
 import Swiper from 'swiper'
 import 'swiper/dist/css/swiper.min.css'
@@ -115,107 +116,61 @@ class Msite extends Component {
                 </nav>
                 <div className="shop_list_container">
                     <header className="shop_header">
-
+                        <svg className="shop_icon">
+                            <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#shop"></use>
+                        </svg>
+                        <span className="shop_header_title">  附近商家</span>
                     </header>
                     <div className="shoplist_container">
                         <ul>
                             <li className="shop_li">
-                                <div><img src="/img/164ad0b6a3917599.jpg"
-                                                                 className="shop_img" /></div>
-                                <div className="shop_right">
-                                    <header className="shop_detail_header"><h4
-                                                                                                  className="shop_title ellipsis premium">效果演示</h4>
-                                        <ul className="shop_detail_ul">
-                                            <li className="supports">保</li>
-                                            <li className="supports">准</li>
-                                            <li className="supports">票</li>
-                                        </ul>
-                                    </header>
-                                    <h5 className="rating_order_num">
-                                        <section className="rating_order_num_left">
-                                            <section className="rating_section">
-                                                <div className="rating_container">
-                                                    <section className="star_container">
-                                                        <svg className="grey_fill">
-                                                            <use
-                                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                 xlink:href="#star"></use>
-                                                        </svg>
-                                                        <svg className="grey_fill">
-                                                            <use
-                                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                 xlink:href="#star"></use>
-                                                        </svg>
-                                                        <svg className="grey_fill">
-                                                            <use
-                                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                 xlink:href="#star"></use>
-                                                        </svg>
-                                                        <svg className="grey_fill">
-                                                            <use
-                                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                 xlink:href="#star"></use>
-                                                        </svg>
-                                                        <svg className="grey_fill">
-                                                            <use
-                                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                 xlink:href="#star"></use>
-                                                        </svg>
-                                                    </section>
-                                                    <div className="star_overflow"
-                                                         style="width: 1.88rem;">
-                                                        <section className="star_container">
-                                                            <svg className="orange_fill">
-                                                                <use
-                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                     xlink:href="#star"></use>
-                                                            </svg>
-                                                            <svg className="orange_fill">
-                                                                <use
-                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                     xlink:href="#star"></use>
-                                                            </svg>
-                                                            <svg className="orange_fill">
-                                                                <use
-                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                     xlink:href="#star"></use>
-                                                            </svg>
-                                                            <svg className="orange_fill">
-                                                                <use
-                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                     xlink:href="#star"></use>
-                                                            </svg>
-                                                            <svg className="orange_fill">
-                                                                <use
-                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                     xlink:href="#star"></use>
-                                                            </svg>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                                <span className="rating_num">4.7</span></section>
-                                            <section className="order_section">
-                                                月售106单
-                                            </section>
-                                        </section>
-                                        <section className="rating_order_num_right"><span
-                                            className="delivery_style delivery_left">蜂鸟专送</span>
-                                            <span
-                                                  className="delivery_style delivery_right">准时达</span></section>
-                                    </h5>
-                                    <h5 className="fee_distance"><p
-                                                                                       className="fee">
-                                        ¥20起送
-                                        <span className="segmentation">/</span>
-                                        配送费约¥5
-                                    </p> <p className="distance_time"><span
-                                    >1382.4公里</span> <span
-                                                                                 className="segmentation">/</span> <span
-                                        className="order_time">14小时44分钟</span></p></h5>
-                                </div>
+                                <section>
+                                    <img src="//elm.cangdu.org/img/16cefdfeb5152833.jpg" alt="" className="shop_img" />
+                                </section>
+                                <RatingStar rating={4.4}></RatingStar>
                             </li>
-                            <li className="shop_li"></li>
-                            <li className="shop_li"></li>
+                            <li className="shop_li">
+                                <section>
+                                    <img src="//elm.cangdu.org/img/16cefdfeb5152833.jpg" alt="" className="shop_img" />
+                                </section>
+                                <RatingStar rating={4.4}></RatingStar>
+                            </li>
+                            <li className="shop_li">
+                                <section>
+                                    <img src="//elm.cangdu.org/img/16cefdfeb5152833.jpg" alt="" className="shop_img" />
+                                </section>
+                                <RatingStar rating={4.4}></RatingStar>
+                            </li>
+                            <li className="shop_li">
+                                <section>
+                                    <img src="//elm.cangdu.org/img/16cefdfeb5152833.jpg" alt="" className="shop_img" />
+                                </section>
+                                <RatingStar rating={4.4}></RatingStar>
+                            </li>
+                            <li className="shop_li">
+                                <section>
+                                    <img src="//elm.cangdu.org/img/16cefdfeb5152833.jpg" alt="" className="shop_img" />
+                                </section>
+                                <RatingStar rating={4.4}></RatingStar>
+                            </li>
+                            <li className="shop_li">
+                                <section>
+                                    <img src="//elm.cangdu.org/img/16cefdfeb5152833.jpg" alt="" className="shop_img" />
+                                </section>
+                                <RatingStar rating={4.4}></RatingStar>
+                            </li>
+                            <li className="shop_li">
+                                <section>
+                                    <img src="//elm.cangdu.org/img/16cefdfeb5152833.jpg" alt="" className="shop_img" />
+                                </section>
+                                <RatingStar rating={4.4}></RatingStar>
+                            </li>
+                            <li className="shop_li">
+                                <section>
+                                    <img src="//elm.cangdu.org/img/16cefdfeb5152833.jpg" alt="" className="shop_img" />
+                                </section>
+                                <RatingStar rating={4.4}></RatingStar>
+                            </li>
                         </ul>
                     </div>
                 </div>
